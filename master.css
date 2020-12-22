@@ -1,0 +1,44 @@
+html, body {
+    padding:0;
+    margin:0;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title_box {
+    background-color: #002266;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom:  -5px;
+}
+
+.subtitle {
+    font-weight: lighter;
+    margin-top:  -5px;
+    letter-spacing: 3px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+h2 {
+    color:#002266;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-weight: normal;
+}
